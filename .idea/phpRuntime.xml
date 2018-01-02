@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpRuntimeConfiguration">
+    <extensions>
+      <extension name="SQLite" enabled="false" />
+      <extension name="ZendCache" enabled="false" />
+      <extension name="ZendDebugger" enabled="false" />
+      <extension name="ZendUtils" enabled="false" />
+      <extension name="mssql" enabled="false" />
+      <extension name="mysql" enabled="false" />
+      <extension name="zend" enabled="false" />
+      <extension name="zmq" enabled="false" />
+    </extensions>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+{
+  "name": "infirma/api",
+  "version": "3.0.0",
+  "description": "inFirma Api",
+  "keywords": [
+    "crm"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lukasz Piernikarczyk",
+      "email": "biuro@lukana.pl",
+      "homepage": "http://www.lukana.pl/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "slim/slim": "^3.9.2",
+    "php-di/php-di": "^5.4",
+    "php-di/slim-bridge": "^1.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Lukana\\": "src",
+      "Lukana\\Config\\": "config"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lukana\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../libsPhp/*"
+    }
+  ],
+  "scripts": {
+    "start": "php -S localhost:8080 -t public public/index.php",
+    "test": "phpunit"
+  }
+}
